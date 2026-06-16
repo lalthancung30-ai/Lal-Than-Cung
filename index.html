@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kousuke | Personal Website</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+
+    .container{
+      padding: 60px 20px;
+    }
+
+    .profile{
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+
+    h1{
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    h2{
+      color: #d1d1d1;
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
+
+    p{
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.8;
+      font-size: 18px;
+      color: #f1f1f1;
+    }
+
+    .box{
+      margin-top: 40px;
+      background: rgba(255,255,255,0.1);
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ul{
+      list-style: none;
+      padding-top: 10px;
+    }
+
+    li{
+      padding: 8px;
+      font-size: 18px;
+    }
+
+    footer{
+      margin-top: 50px;
+      padding: 20px;
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    button{
+      margin-top: 25px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 30px;
+      background: #ff9800;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover{
+      background: #e68900;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Hello, I'm Kousuke 👋</h1>
+    <h2>Future Developer | Spanish Learner</h2>
+
+    <p>
+      My name is Kousuke (Elías). I am Chin from Burma.
+      I love learning programming, Spanish, and technology.
+      One day, I want to become a great developer.
+    </p>
+
+    <div class="box">
+      <h2>My Interests</h2>
+      <ul>
+        <li>💻 Coding</li>
+        <li>🇪🇸 Learning Spanish</li>
+        <li>📚 Reading Novels</li>
+        <li>🎵 Music</li>
+      </ul>
+    </div>
+
+    <button onclick="showMessage()">
+      Click Me
+    </button>
+
+  </div>
+
+  <footer>
+    © 2026 Kousuke | My First Website
+  </footer>
+
+  <script>
+    function showMessage(){
+      alert("Welcome to my first website!");
+    }
+  </script>
+
+</body>
+</html>
